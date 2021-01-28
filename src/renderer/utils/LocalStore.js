@@ -28,9 +28,9 @@ function generateSettings() {
     timeWork: 25,
     volume: 100,
     globalShortcuts: { // If new shortcuts are added, the migrations of this should be handled
-      'call-timer-toggle': 'Control+F1',
-      'call-timer-reset': 'Control+F2',
-      'call-timer-skip': 'Control+F3'
+      'call-timer-toggle': 'CommandOrControl+F1',
+      'call-timer-reset': 'CommandOrControl+F2',
+      'call-timer-skip': 'CommandOrControl+F3'
     }
   }
 }
